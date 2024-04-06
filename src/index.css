@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-gray-green{
+  background-color: #222625;
+}
+
+.bg-gray-green{
+  background-color: #373f3d;
+}
+
