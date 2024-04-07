@@ -3,7 +3,7 @@ import media from '../../media/media.jpg'
 
 function SocialMedia() {
   return (
-  <div className='bg-zinc-900 mx-0 text-sm flex flex-col justify-around rounded-lg  h-full w-[90%] md:w-[50%]  my-10 lg:my-0 mr-10'>
+  <div className='bg-zinc-900 mx-0 text-sm flex flex-col justify-around rounded-lg  h-full w-[90%] md:max-w-[70%] lg:w-[50%]  my-10 lg:my-0 mr-10'>
     <h1 className='text-lg text-center'>In recent posts</h1>
     
     <img src={media} className=' max-w-[88%] rounded-lg self-center h-[65%]' />

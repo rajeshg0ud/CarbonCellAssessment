@@ -119,7 +119,7 @@ const CryptoChart = () => {
   };
 
   return (
-    <div className='w-[90%] md:w-[60%] my-10 lg:my-0'>
+    <div className='w-[90%] md:max-w-[70%] lg:w-[60%] my-10 lg:my-0'>
       <canvas id="CryptoChart" width="500" height="418" className=" bg-zinc-900 rounded-lg p-2 "></canvas>
     </div>
   );
