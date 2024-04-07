@@ -14,10 +14,10 @@ const SideNavBar = () => {
         return(
           <>
            <div className='fixed custom-gray-green -top-3 md:top-0 left-0 p-2 flex rounded-md my-2 items-start list-none h-[9%] md:h-screen'>
-             <div className='flex flex-row-reverse md:flex-col justify-between items-center mt-5 text-white w-screen md:w-16'>
+             <div className='flex flex-row-reverse md:flex-col justify-between items-center mt-1 md:mt-5 text-white w-screen md:w-16'>
 
                 <img src='https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg' alt='hamburger' 
-                className='w-6 mr-6 md:mr-2 cursor-pointer md:pb-2 pr-[3px]' onClick={() => toggleSidebar()} />
+                className='w-6 mr-5 md:mr-2 cursor-pointer md:pb-2 pr-[3px]' onClick={() => toggleSidebar()} />
 
                <div className=' flex flex-row md:flex-col '>
                <NavItem className='text-white' to="/" currentPath={location.pathname} icon={<Home size={20} />}></NavItem>
