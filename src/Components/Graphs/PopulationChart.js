@@ -11,7 +11,7 @@ const PopulationChart = () => {
         const response = await fetch('https://datausa.io/api/data?drilldowns=Nation&measures=Population');
         const { data } = await response.json();
         if (data) {
-          setPopulationData(data);
+          setPopulationData(data.reverse());
         }
       } catch (error) {
         console.error('Error fetching population data:', error);
