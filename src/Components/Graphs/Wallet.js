@@ -39,7 +39,7 @@ function Wallet() {
             data: Object.values(quantities),
             backgroundColor: ['#32CD32', '#008000', '#00FFFF', '#AFE1AF'],
             borderWidth: 2,
-            borderColor: '##222625',
+            borderColor: 'rgb(24 24 27)',
             borderRadius: 4,
             
           }]

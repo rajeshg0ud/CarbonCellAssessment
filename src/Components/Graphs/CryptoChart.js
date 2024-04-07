@@ -74,7 +74,7 @@ const CryptoChart = () => {
         plugins: {
           title: {
             display: true,
-            text: 'Market Overview',
+            text: 'Market Overview - Bitcoin',
             position: 'top',
             color: 'white',
             font: {
