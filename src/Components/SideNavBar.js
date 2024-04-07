@@ -13,7 +13,7 @@ const SideNavBar = () => {
     if(!isSidebarOpen){
         return(
           <>
-           <div className='fixed custom-gray-green -top-2 md:top-0 left-0 p-2 flex rounded-md my-2 items-start list-none h-[9%] md:h-screen pb-10 md:pb-0'>
+           <div className='fixed custom-gray-green -top-3 md:top-0 left-0 p-2 flex rounded-md my-2 items-start list-none h-[9%] md:h-screen pb-10 md:pb-0'>
              <div className='flex flex-row-reverse md:flex-col justify-between items-center mt-1 md:mt-5 text-white w-screen md:w-16'>
 
                 <img src='https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg' alt='hamburger' 
@@ -38,7 +38,7 @@ const SideNavBar = () => {
 
     return (
         <>
-        <div className=" fixed flex flex-col h-[70px] md:h-[112vh] custom-gray-green text-white w-screen md:w-64  rounded-md my-0 md:my-2">
+        <div className=" fixed flex flex-col h-[64px] md:h-[112vh] custom-gray-green text-white w-screen md:w-64  rounded-md my-0 md:my-2">
             <div className='flex justify-between mt-0 md:mt-5'>
             <img src='https://carboncell.io/assets/img/logo2.png' alt='app-logo' className=' w-[24%] md:w-2/5 mt-4 md:mt-1 mx-3' />
                 <img src='https://upload.wikimedia.org/wikipedia/commons/5/59/Hamburger_icon_white.svg' alt='hamburger' className='w-6 cursor-pointer m-2 md:m-0 mr-3 pr-[3px]' onClick={() => toggleSidebar()} />
