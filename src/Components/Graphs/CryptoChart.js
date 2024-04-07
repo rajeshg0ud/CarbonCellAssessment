@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 
-const PopulationChart = () => {
+const CryptoChart = () => {
   const [populationData, setPopulationData] = useState([]);
   const chartRef = useRef(null);
 
@@ -56,7 +56,7 @@ const PopulationChart = () => {
       chartRef.current.destroy();
     }
 
-    const ctx = document.getElementById('populationChart').getContext('2d');
+    const ctx = document.getElementById('CryptoChart').getContext('2d');
     chartRef.current = new Chart(ctx, {
       type: 'line',
       data: {
@@ -120,9 +120,9 @@ const PopulationChart = () => {
 
   return (
     <div className='w-[90%] md:w-[60%] my-10 lg:my-0'>
-      <canvas id="populationChart" width="500" height="418" className=" bg-zinc-900 rounded-lg p-2 "></canvas>
+      <canvas id="CryptoChart" width="500" height="418" className=" bg-zinc-900 rounded-lg p-2 "></canvas>
     </div>
   );
 };
 
-export default PopulationChart;
+export default CryptoChart;
