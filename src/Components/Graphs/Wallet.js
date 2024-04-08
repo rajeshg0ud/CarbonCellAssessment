@@ -65,7 +65,7 @@ function Wallet() {
   return (
     <div className=' bg-zinc-900 mx-0 md:mx-4 text-sm flex flex-col rounded-lg  h-full w-[90%] md:max-w-[70%] lg:w-[45%]   my-10 lg:my-0' >
       
-        <div className=' w-[270px]  self-center'>
+        <div className=' w-[270px] md:w-[320px] lg:w-[270px] self-center'>
         <canvas ref={chartRef}  className=" bg-zinc-900 rounded-lg p-2 mx-4 mb-1"></canvas>
         </div>
 
