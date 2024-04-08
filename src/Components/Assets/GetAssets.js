@@ -25,7 +25,7 @@ function GetAssets() {
   };
 
   return (
-    <div className='left-0 mb-4 md:mt-16 lg:mt-16  '>
+    <div className='left-0 mb-4 md:mt-24 lg:mt-16  '>
       {cryptoData && (
       <div className={`flex overflow-x-auto  justify-start items-center md:justify-around w-[83vw] md:w-[64vw] lg:w-auto`}>
       {Object.values(cryptoData.bpi).map((coin, index) => (
