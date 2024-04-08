@@ -25,7 +25,7 @@ function Home() {
 
       <div  className=" w-5/5 flex h-3/5 ">
         <p className=' text-xl my-4 mt-14 md:mt-[180px] lg:mt-0'> Assets</p>
-        <div className='flex justify-between -ml-16 flex-wrap mt-20 md:mt-28 lg:mt-0'>
+        <div className='flex justify-between -ml-16 flex-wrap mt-20 md:mt-32 lg:mt-0'>
           <GetAssets />
           <GetAssets />
         </div>
