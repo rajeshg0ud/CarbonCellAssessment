@@ -27,7 +27,7 @@ function GetAssets() {
   return (
     <div className='left-0 mb-4 md:mt-24 lg:mt-16  '>
       {cryptoData && (
-      <div className={`flex overflow-x-auto  justify-start items-center md:justify-around w-[83vw] md:w-[64vw] lg:w-auto`}>
+      <div className={`flex overflow-x-auto lg:overflow-x-hidden  justify-start items-center md:justify-around w-[83vw] md:w-[64vw] lg:w-auto`}>
       {Object.values(cryptoData.bpi).map((coin, index) => (
             <div key={index} className="bg-zinc-900 p-4 rounded-md mx-3 my-4 md:my-0 w-[179px] lg:w-[173px]" >
               <div className='flex justify-start items-center w-48 md:w-44'>
